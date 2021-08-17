@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600|Prompt:600|Roboto:400|Inter:500");
+@font-face {
+  font-family: "Cera Pro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Cera Pro Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Cera Pro-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cera Pro Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Cera Pro-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Cera Pro Light.otf") format("opentype");
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
