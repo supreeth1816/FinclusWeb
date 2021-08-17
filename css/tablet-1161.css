@@ -1732,12 +1732,7 @@ transform: translate(0,0);
 .tablet-1161 .having-any-ques-out-our-product-GA7nTH {
   background-color: transparent;
   bottom: 268px;
-  color: var(--white);
   display: block;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 600;
   height: 121px;
   left: calc(50.00% - 469px);
   letter-spacing: 0.00px;
@@ -1768,7 +1763,6 @@ transform: translate(0,0);
 
 .tablet-1161 .rectangle-392-GA7nTH {
   background-color: var(--eerie-black);
-  border: 2px solid var(--white);
   border-radius: 7px;
   bottom: 234px;
   height: 43px;
@@ -1781,11 +1775,6 @@ transform: translate(0,0);
 .tablet-1161 .view-fa-qs-GA7nTH {
   background-color: transparent;
   bottom: 239px;
-  color: var(--white);
-  font-family: var(--font-family-poppins);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
   height: 33px;
   left: calc(50.00% - 82px);
   letter-spacing: 0.00px;
@@ -2098,7 +2087,7 @@ transform: scale(1);
   background-color: transparent;
   color: transparent;
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
+  font-size: 36px;
   font-style: normal;
   font-weight: 500;
   height: auto;
