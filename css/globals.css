@@ -17,6 +17,12 @@
   font-weight: 300;
   src: url("../fonts/Cera Pro Light.otf") format("opentype");
 }
+@font-face {
+  font-family: "SF Pro Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
 .screen textarea:focus,
 .screen input:focus {
   outline: none;

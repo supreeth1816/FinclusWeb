@@ -6,6 +6,7 @@
   --fuel-yellow: #e7aa22;
   --log-cabin: #232323;
   --mist-gray: #c4c4c4;
+  --mountain-mist: #959595;
   --nobel: #b4b4b4;
   --onion: #2f2815;
   --pizza: #c98c05;
@@ -143,30 +144,6 @@
   font-weight: 600;
 }
 
-.poppins-medium-white-16px {
-  color: var(--white);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxs);
-  font-style: normal;
-  font-weight: 500;
-}
-
-.cerapro-medium-nobel-17-6px {
-  color: var(--nobel);
-  font-family: var(--font-family-cera_pro-medium);
-  font-size: 17.6px;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.cerapro-bold-quarter-pearl-lusta-56-5px {
-  color: var(--quarter-pearl-lusta);
-  font-family: var(--font-family-cera_pro-bold);
-  font-size: 56.5px;
-  font-style: normal;
-  font-weight: 700;
-}
-
 .cerapro-bold-white-17-6px {
   color: var(--white);
   font-family: var(--font-family-cera_pro-bold);
@@ -183,12 +160,36 @@
   font-weight: 500;
 }
 
+.poppins-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cerapro-medium-nobel-17-6px {
+  color: var(--nobel);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: 17.6px;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .prompt-semi-bold-white-24px {
   color: var(--white);
   font-family: var(--font-family-prompt);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
+}
+
+.cerapro-bold-quarter-pearl-lusta-56-5px {
+  color: var(--quarter-pearl-lusta);
+  font-family: var(--font-family-cera_pro-bold);
+  font-size: 56.5px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .cerapro-bold-fuel-yellow-32px {
@@ -283,6 +284,14 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
+}
+
+.cerapro-bold-royal-blue-17-6px {
+  color: var(--royal-blue);
+  font-family: var(--font-family-cera_pro-bold);
+  font-size: 17.6px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .poppins-semi-bold-white-13-4px {
@@ -390,6 +399,14 @@
   color: var(--nobel);
   font-family: var(--font-family-cera_pro-medium);
   font-size: 16.9px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cerapro-medium-black-17-6px {
+  color: var(--black);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: 17.6px;
   font-style: normal;
   font-weight: 500;
 }
