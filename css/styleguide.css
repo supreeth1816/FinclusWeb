@@ -1,19 +1,24 @@
 :root { 
   --black: #000000;
   --chicago: #585858;
+  --cloud: #c6c6c6;
   --desert-storm: #f8f8f8;
   --eerie-black: #1b1b1b;
   --fuel-yellow: #e7aa22;
+  --granite-gray: #696969;
   --log-cabin: #232323;
   --mist-gray: #c4c4c4;
   --mountain-mist: #959595;
   --nobel: #b4b4b4;
+  --nugget: #cf9821;
   --onion: #2f2815;
   --pizza: #c98c05;
   --quarter-pearl-lusta: #fffcf5;
   --quarter-pearl-lusta-2: #fffcf58a;
   --rangoon-green: #201e19;
   --royal-blue: #4660e2;
+  --seashell: #f1f1f1;
+  --ship-gray: #3f3f3f;
   --silver: #c1c1c1;
   --white: #ffffff;
  
@@ -28,22 +33,26 @@
   --font-family-cera_pro-bold: "Cera Pro-Bold", Helvetica;
   --font-family-cera_pro-light: "Cera Pro-Light", Helvetica;
   --font-family-cera_pro-medium: "Cera Pro-Medium", Helvetica;
-  --font-family-inter: "Inter", Helvetica;
-  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-inter-medium: "Inter-Medium", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-poppins-bold: "Poppins-Bold", Helvetica;
+  --font-family-poppins-medium: "Poppins-Medium", Helvetica;
+  --font-family-poppins-regular: "Poppins-Regular", Helvetica;
+  --font-family-poppins-semibold: "Poppins-SemiBold", Helvetica;
   --font-family-prompt: "Prompt", Helvetica;
-  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
   --font-family-sf_pro_display-regular: "SF Pro Display-Regular", Helvetica;
 }
-.poppins-normal-white-24px {
+.poppins-regular-normal-white-24px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
 
 .poppins-semi-bold-white-22px {
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 600;
@@ -51,7 +60,7 @@
 
 .poppins-semi-bold-fuel-yellow-22px {
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 600;
@@ -59,22 +68,30 @@
 
 .poppins-semi-bold-white-22px-2 {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 600;
 }
 
+.cerapro-medium-white-15-4px {
+  color: var(--white);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .poppins-medium-white-40px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 500;
 }
 
 .poppins-medium-white-40px-2 {
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 500;
@@ -82,7 +99,7 @@
 
 .poppins-medium-fuel-yellow-40px {
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 500;
@@ -96,17 +113,17 @@
   font-weight: 700;
 }
 
-.poppins-normal-white-32px {
+.poppins-regular-normal-white-32px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
 
-.poppins-normal-silver-20px {
+.poppins-regular-normal-silver-20px {
   color: var(--silver);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 400;
@@ -122,7 +139,7 @@
 
 .inter-medium-white-16px {
   color: var(--white);
-  font-family: var(--font-family-inter);
+  font-family: var(--font-family-inter-medium);
   font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 500;
@@ -130,7 +147,7 @@
 
 .poppins-medium-desert-storm-40px {
   color: var(--desert-storm);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 500;
@@ -138,8 +155,16 @@
 
 .poppins-semi-bold-white-36-5px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 36.5px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.prompt-semi-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-prompt);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
 }
@@ -160,9 +185,17 @@
   font-weight: 500;
 }
 
+.cerapro-medium-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
 .poppins-medium-white-16px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 500;
@@ -174,14 +207,6 @@
   font-size: 17.6px;
   font-style: normal;
   font-weight: 500;
-}
-
-.prompt-semi-bold-white-24px {
-  color: var(--white);
-  font-family: var(--font-family-prompt);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 600;
 }
 
 .cerapro-bold-quarter-pearl-lusta-56-5px {
@@ -208,16 +233,8 @@
   font-weight: 300;
 }
 
-.cerapro-medium-white-32px {
-  color: var(--white);
-  font-family: var(--font-family-cera_pro-medium);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
-}
-
 .poppins-semi-bold-white-36-5px-2 {
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 36.5px;
   font-style: normal;
   font-weight: 600;
@@ -225,7 +242,7 @@
 
 .poppins-semi-bold-fuel-yellow-36-5px {
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 36.5px;
   font-style: normal;
   font-weight: 600;
@@ -256,10 +273,26 @@
 
 .poppins-semi-bold-white-32px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 600;
+}
+
+.cerapro-medium-fuel-yellow-15-4px {
+  color: var(--fuel-yellow);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: 15.4px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cerapro-bold-fuel-yellow-18px {
+  color: var(--fuel-yellow);
+  font-family: var(--font-family-cera_pro-bold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .cerapro-bold-fuel-yellow-36px {
@@ -294,8 +327,32 @@
   font-weight: 700;
 }
 
+.lato-bold-cloud-14px {
+  color: var(--cloud);
+  font-family: var(--font-family-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cerapro-bold-granite-gray-12-5px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-cera_pro-bold);
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cerapro-medium-ship-gray-14px {
+  color: var(--ship-gray);
+  font-family: var(--font-family-cera_pro-medium);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .poppins-semi-bold-white-13-4px {
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 13.4px;
   font-style: normal;
   font-weight: 600;
@@ -303,7 +360,7 @@
 
 .poppins-semi-bold-fuel-yellow-13-4px {
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 13.4px;
   font-style: normal;
   font-weight: 600;
@@ -311,22 +368,22 @@
 
 .poppins-semi-bold-white-13-4px-2 {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 13.4px;
   font-style: normal;
   font-weight: 600;
 }
 
-.poppins-normal-white-14-6px {
+.poppins-regular-normal-white-14-6px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 400;
 }
 
 .poppins-semi-bold-white-14-5px {
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 14.5px;
   font-style: normal;
   font-weight: 600;
@@ -334,7 +391,7 @@
 
 .poppins-semi-bold-fuel-yellow-14-5px {
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 14.5px;
   font-style: normal;
   font-weight: 600;
@@ -342,23 +399,23 @@
 
 .poppins-semi-bold-white-14-5px-2 {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 14.5px;
   font-style: normal;
   font-weight: 600;
 }
 
-.poppins-normal-white-15-8px {
+.poppins-regular-normal-white-15-8px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 15.8px;
   font-style: normal;
   font-weight: 400;
 }
 
-.poppins-normal-quarter-pearl-lusta-22px {
+.poppins-regular-normal-quarter-pearl-lusta-22px {
   color: var(--quarter-pearl-lusta-2);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 400;
@@ -379,9 +436,9 @@
   font-weight: 700;
 }
 
-.poppins-normal-white-18-2px {
+.poppins-regular-normal-white-18-2px {
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 18.2px;
   font-style: normal;
   font-weight: 400;
@@ -417,4 +474,8 @@
 
 .border-1-1px-nobel {
   border: 1.1px solid var(--nobel);
+}
+
+.border-1px-nugget {
+  border: 1px solid var(--nugget);
 }

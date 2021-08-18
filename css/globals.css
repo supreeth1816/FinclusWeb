@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500,600|Prompt:600|Roboto:400|Inter:500");
-@font-face {
-  font-family: "Cera Pro-Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Cera Pro Bold.otf") format("opentype");
-}
+@import url("https://fonts.googleapis.com/css?family=Prompt:600|Lato:700");
 @font-face {
   font-family: "Cera Pro-Medium";
   font-style: normal;
@@ -12,16 +6,10 @@
   src: url("../fonts/Cera Pro Medium.otf") format("opentype");
 }
 @font-face {
-  font-family: "Cera Pro-Light";
+  font-family: "Cera Pro-Bold";
   font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/Cera Pro Light.otf") format("opentype");
-}
-@font-face {
-  font-family: "SF Pro Display-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: 700;
+  src: url("../fonts/Cera Pro Bold.otf") format("opentype");
 }
 .screen textarea:focus,
 .screen input:focus {

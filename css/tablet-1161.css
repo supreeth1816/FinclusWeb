@@ -539,7 +539,7 @@ transform: translate(0,0);
   background-color: transparent;
   color: var(--quarter-pearl-lusta-2);
   display: block;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 18.2px;
   font-style: normal;
   font-weight: 400;
@@ -659,7 +659,7 @@ transform: translate(0,0);
 .tablet-1161 .join-the-waitlist-DgxL3E {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 16.9px;
   font-style: normal;
   font-weight: 500;
@@ -1116,7 +1116,7 @@ transform: translate(0,0);
 .tablet-1161 .and-get-100-cashback-GA7nTH {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-roboto);
+  font-family: var(--font-family-roboto-regular);
   font-size: 18.2px;
   font-style: normal;
   font-weight: 400;
@@ -2086,7 +2086,7 @@ transform: scale(1);
 .tablet-1161 .with-finclus-yo-ns-in-one-click-gX81gP {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 36px;
   font-style: normal;
   font-weight: 500;

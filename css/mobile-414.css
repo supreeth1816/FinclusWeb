@@ -2020,7 +2020,7 @@ transform: scale(1);
 .desktop-1205 .what-are-you-waiting-for-GE5LxG {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-bold);
   font-size: 29px;
   font-style: normal;
   font-weight: 700;
@@ -2039,7 +2039,7 @@ transform: scale(1);
 .desktop-1205 .claim-the-rewar-ng-the-waitlist-GE5LxG {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -4276,7 +4276,7 @@ transform: scale(1);
 .desktop-1414 .what-are-you-waiting-for-WSwqhz {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-bold);
   font-size: 29px;
   font-style: normal;
   font-weight: 700;
@@ -4295,7 +4295,7 @@ transform: scale(1);
 .desktop-1414 .claim-the-rewar-ng-the-waitlist-WSwqhz {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -4499,7 +4499,7 @@ transform: translate(0,0);
 .mobile-414 .with-finclus-yo-ns-in-one-click-GVUvGU {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 500;
@@ -4528,7 +4528,7 @@ transform: translate(0,0);
 .mobile-414 .pay-with-social-media-posts-GVUvGU {
   background-color: transparent;
   color: var(--desert-storm);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 24.4px;
   font-style: normal;
   font-weight: 500;
@@ -4977,7 +4977,7 @@ transform: translate(0,0);
 .mobile-414 .join-waitlist-now-GVUvGU {
   background-color: transparent;
   color: var(--desert-storm);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 26.4px;
   font-style: normal;
   font-weight: 500;
@@ -5208,7 +5208,7 @@ transform: translate(0,0);
   background-color: transparent;
   color: var(--quarter-pearl-lusta-2);
   display: block;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -5409,7 +5409,7 @@ transform: translate(0,0);
 .mobile-414 .finance-in-a-flash-GVUvGU {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -5439,7 +5439,7 @@ transform: translate(0,0);
 .mobile-414 .create-a-bank-a-percent-painful-GVUvGU {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 16.2px;
   font-style: normal;
   font-weight: 400;
@@ -5479,7 +5479,7 @@ transform: translate(0,0);
 .mobile-414 .reap-remarkable-rewards-GVUvGU {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -5511,7 +5511,7 @@ transform: translate(0,0);
 .mobile-414 .join-the-waitli-arkable-rewards-GVUvGU {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 400;
@@ -5548,7 +5548,7 @@ transform: translate(0,0);
 .mobile-414 .and-get-100-cashback-GVUvGU {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-roboto);
+  font-family: var(--font-family-roboto-regular);
   font-size: 12.2px;
   font-style: normal;
   font-weight: 400;
@@ -5608,7 +5608,7 @@ transform: translate(0,0);
 .mobile-414 .ultimate-privacy-and-security-GVUvGU {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 30.9px;
   font-style: normal;
   font-weight: 500;
@@ -5643,7 +5643,7 @@ transform: translate(0,0);
 .mobile-414 .data-breach-res-e-data-is-moved-GVUvGU {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 18.5px;
   font-style: normal;
   font-weight: 400;
@@ -5691,7 +5691,7 @@ transform: translate(0,0);
 .mobile-414 .zero-knowledge-with-blockchain-GVUvGU {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
@@ -5720,7 +5720,7 @@ transform: translate(0,0);
 .mobile-414 .no-shared-secre-ns-or-otherwise-GVUvGU {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 400;
@@ -6344,7 +6344,7 @@ transform: scale(1);
 .mobile-414 .what-are-you-waiting-for-GVUvGU {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-bold);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 700;
@@ -6363,7 +6363,7 @@ transform: scale(1);
 .mobile-414 .claim-the-rewar-ng-the-waitlist-GVUvGU {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 15.2px;
   font-style: normal;
   font-weight: 400;
@@ -6576,7 +6576,7 @@ transform: scale(1);
   bottom: 214px;
   color: var(--white);
   display: block;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-semibold);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
@@ -7184,7 +7184,7 @@ transform: translate(0,0);
   background-color: transparent;
   color: var(--quarter-pearl-lusta-2);
   display: block;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 18.2px;
   font-style: normal;
   font-weight: 400;
@@ -7281,7 +7281,7 @@ transform: translate(0,0);
 .tablet-861 .join-the-waitlist-5XxP6g {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 16.9px;
   font-style: normal;
   font-weight: 500;
@@ -7729,7 +7729,7 @@ transform: translate(0,0);
 .tablet-861 .and-get-100-cashback-ehiYFA {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-roboto);
+  font-family: var(--font-family-roboto-regular);
   font-size: 18.2px;
   font-style: normal;
   font-weight: 400;
@@ -8599,7 +8599,7 @@ transform: scale(1);
 .tablet-861 .with-finclus-yo-ns-in-one-click-FLfrC7 {
   background-color: transparent;
   color: transparent;
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-medium);
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -8682,7 +8682,7 @@ transform: scale(1);
 .tablet-861 .what-are-you-waiting-for-ehiYFA {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-bold);
   font-size: 27.1px;
   font-style: normal;
   font-weight: 700;
@@ -8701,7 +8701,7 @@ transform: scale(1);
 .tablet-861 .claim-the-rewar-ng-the-waitlist-ehiYFA {
   background-color: transparent;
   color: var(--fuel-yellow);
-  font-family: var(--font-family-poppins);
+  font-family: var(--font-family-poppins-regular);
   font-size: 17.8px;
   font-style: normal;
   font-weight: 400;
